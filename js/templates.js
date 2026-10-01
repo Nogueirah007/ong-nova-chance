@@ -1,6 +1,11 @@
+import imagemQuemSomos from "../imagens/quem-somos.webp";
+import imagemDoacoes from "../imagens/doacoes.webp";
+import imagemVoluntariado from "../imagens/voluntariado.webp";
+import imagemContato from "../imagens/contato.webp";
+
 // ==================== TEMPLATES DA SPA ====================
 
-const templates = {
+export const templates = {
 
     // ==================== QUEM SOMOS ====================
 
@@ -23,7 +28,7 @@ const templates = {
                 </div>
 
                 <div class="pagina-hero-imagem">
-                   <img src="../imagens/quem-somos.jpeg"
+                   <img src="${imagemQuemSomos}" loading="lazy"
      alt="Equipe da ONG Nova Chance">
                 </div>
 
@@ -123,7 +128,7 @@ const templates = {
                 </div>
 
                 <div class="pagina-hero-imagem">
-                    <img src="../imagens/doacoes.jpeg"
+                   <img src="${imagemDoacoes}" loading="lazy"
                          alt="Voluntários organizando doações">
                 </div>
 
@@ -204,7 +209,7 @@ const templates = {
                 </div>
 
                 <div class="pagina-hero-imagem">
-                    <img src="../imagens/voluntariado.jpeg"
+                   <img src="${imagemVoluntariado}" loading="lazy"
                          alt="Voluntários participando de uma ação social">
                 </div>
 
@@ -275,7 +280,7 @@ const templates = {
             <div class="contato-topo">
 
                 <div class="contato-imagem">
-                    <img src="../imagens/contato.jpeg"
+                   <img src="${imagemContato}" loading="lazy"
                          alt="Equipe da Nova Chance conversando">
                 </div>
 

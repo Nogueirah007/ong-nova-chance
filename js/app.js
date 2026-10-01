@@ -1,3 +1,6 @@
+import { templates } from "./templates.js";
+import { inicializarValidacao } from "./validacao.js";
+
 // ==================== ROTEAMENTO DA SPA ====================
 
 const conteudo = document.getElementById("conteudo");

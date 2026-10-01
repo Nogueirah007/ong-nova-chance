@@ -1,6 +1,6 @@
 // ==================== LOCAL STORAGE ====================
 
-function salvarCadastro() {
+export function salvarCadastro() {
 
     const cadastro = {
         nome: document.getElementById("nome").value,
