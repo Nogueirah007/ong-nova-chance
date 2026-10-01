@@ -1,6 +1,8 @@
+import { salvarCadastro } from "./storage.js";
+
 // ==================== VALIDAÇÃO DO FORMULÁRIO ====================
 
-function inicializarValidacao() {
+export function inicializarValidacao() {
 
     // O formulário só existe depois que a página Cadastro é carregada
     const formulario = document.getElementById("form-cadastro");
